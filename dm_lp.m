@@ -65,12 +65,19 @@ clc
 %  disp(n);
 
 %continue
+% n = 0;
+% for i = 1 : 3
+%     if i == 2
+%         continue
+%     else
+%         n = n + i;
+%     end
+% end
+%  disp(n);
+
+%While 
 n = 0;
-for i = 1 : 3
-    if i == 2
-        continue
-    else
-        n = n + i;
-    end
+while n < 10 
+    disp('mengulang');
+    n = n+1;
 end
- disp(n);
